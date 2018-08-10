@@ -3,26 +3,18 @@
 <head>
 	<title>ToDoList</title>
 	<style>
-		table {
-		    border-collapse: collapse;
-		}
-
-		table, th, td {
-		    border: 1px solid black;
-		}
+		table {border-collapse: collapse;}
+		table, th, td {border: 1px solid black;}
 	</style>
 </head>
 <body onload="init()">
-
 	<script src="script.js"></script>
 	<div id="addToDo">
 		<form id="formAdd" action="" method="post" onsubmit="addToLocalStorage()">
 			Title
 			<input type="text" name="title"><br>
-
 			Description
 			<input type="text" name="description"><br>
-
 			<input type="submit" value="Submit">
 		</form>
 	</div>
